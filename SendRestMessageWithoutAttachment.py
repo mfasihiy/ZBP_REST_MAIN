@@ -53,7 +53,7 @@ if __name__ == '__main__':
     curl_13_generate_signature_64.create_signature()
     time.sleep(1)
 
-# Erstellung und senden des Curl commands ##############################################################################
+# Erstellung und senden des Curl commands ###############################
 
     curl_14_generate_and_send_curl_request = Curl_14_GenerateAndSendCurlRequest(
         url=url,
