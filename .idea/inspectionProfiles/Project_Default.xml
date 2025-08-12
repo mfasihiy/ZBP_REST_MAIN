@@ -1,0 +1,57 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E231" />
+          <option value="E721" />
+          <option value="W292" />
+          <option value="E501" />
+          <option value="E712" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N812" />
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tests.test_HomePage.TestHomePage.driver" />
+          <option value="tests.test_e2e.TestOne.driver" />
+          <option value="tests.test_TestSet_17_Elster_Tests_PCLaptop.TestSet_17_Elster_Tests_PCLaptop.*" />
+          <option value="tests.test_TestSet_16_eIDAS_Tests_PCLaptop.test_TestSet_16_eIDAS_Tests_PCLaptop.*" />
+          <option value="tests.test_TestSet_08a_ZBP_Postfach.TestSet_08_Postfach_im_Nutzerkonto.*" />
+          <option value="tests.test_TestSet_05_Password_zuruecksetzen.TestSet_05_Password_zuruecksetzen.*" />
+          <option value="tests.test_TestSet_26_Nachrichten_vom_Support.TestSet_26_Nachrichten_vom_Support.*" />
+          <option value="tests.test_TestSet_01_Registrierung_mit_Benutzername_und_Passwort.TestSet_01_Registrierung_mit_Benutzername_und_Passwort.*" />
+          <option value="tests.test_TestSet_22_Interoperabilitaet_Nutzerkonto_Fink_Verbund.TestSet_22_Interoperabilitaet_Nutzerkonto_Fink_Verbund.*" />
+          <option value="tests.test_TestSet_08_Postfach_im_Nutzerkonto.TestSet_08_Postfach_im_Nutzerkonto.*" />
+          <option value="tests.test_TestSet_03_NutzerKontoVerwalten.TestSet_03_NutzerKontoVerwalten.*" />
+          <option value="tests.BaseTest.BaseTest.*" />
+          <option value="tests.test_TestSet_04_Benutzername_anfordern.TestSet_04_Benutzername_anfordern.*" />
+          <option value="tests.test_TestSet_02_Anmeldung_mit_Nutzerkonto_Bund_mit_Benutzername_Passwort.TestSet_02_Anmeldung_mit_Nutzerkonto_Bund_mit_Benutzername_Passwort.*" />
+          <option value="tests.test_TestSet_06_Erstellen_eines_weiteren_Zugangs.test_TestSet_06_Erstellen_eines_weiteren_Zugangs.*" />
+          <option value="bytes.alert_is_present" />
+          <option value="bytes.visibility_of_element_located" />
+          <option value="tests.test_TestSet_19_Identitätsvalidierung.test_TestSet_19_Identitaetsvalidierung.*" />
+          <option value="tests.test_TestSet_10_Abmeldung_im_Nutzerkonto_Bund.TestSet_Abmeldung_im_Nutzerkonto_Bund.*" />
+          <option value="tests.test_TestSet_08a_ZBP_Postfach.TestSet_08a_ZBP_Postfach.*" />
+          <option value="tests.test_TestSet_07_Kontaktformular.TestSet_07_Kontakformular.*" />
+          <option value="tests.test_TestSet_11_Sprachauswahl_im_Nutzerkonto.TestSet_11_Sprachauswahl_im_Nutzerkonto.*" />
+          <option value="tests.test_TestSet_09_Betroffenenauskunft.TestSet_27_StatusAntraege.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

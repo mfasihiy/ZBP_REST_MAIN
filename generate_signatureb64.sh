@@ -1,0 +1,1 @@
+openssl base64 -in msg-signatur.txt -out signature.b64 -A
