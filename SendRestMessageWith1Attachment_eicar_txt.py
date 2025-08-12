@@ -39,8 +39,6 @@ if __name__ == '__main__':
     mimeType_anhang_3 = "image/jpeg"
     mimeType_anhang_4 = "image/tiff"
 
-########################################################################################################################
-
     title = f" [SOGETI] Rest mit 1 Anhang: {anhang_1}"
     text_content = title
 
