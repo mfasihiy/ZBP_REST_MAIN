@@ -23,12 +23,8 @@ if __name__ == '__main__':
     cert_passwort = "abc123"
     url = "https://int.zbp.bund.de"
 
-########################################################################################################################
-
     handle = "60638836-f219-4ce7-b03a-2f2441d20ac6"
     current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
-
-########################################################################################################################
 
     anhang_pfad = "Utils/Anhaenge/"
 
@@ -42,20 +38,14 @@ if __name__ == '__main__':
     mimeType_anhang_3 = "image/jpeg"
     mimeType_anhang_4 = "image/tiff"
 
-########################################################################################################################
-
     title = f" [SOGETI] Rest mit 1 Anhang: {anhang_1}"
     text_content = title
 
     retrievalConfirmationAddress = None
 
-# Erstellung eines Tokens ##############################################################################################
-
     curl_11_generate_token = Curl_11_GenerateToken()
     curl_11_generate_token.create_token()
     time.sleep(2)
-
-# Generierung der msg-signatur und der signatur.b64Erstellung eines Tokens #############################################
 
     curl_12_generate_msg_signature = Curl_12_GenerateMsgSignature(
         text_content=text_content,
@@ -76,8 +66,6 @@ if __name__ == '__main__':
     curl_13_generate_signature_64 = Curl_13_GenerateSignature64()
     curl_13_generate_signature_64.create_signature()
     time.sleep(1)
-
-# Erstellung und senden des Curl commands ##############################################################################
 
     curl_14_generate_and_send_curl_request = Curl_14_GenerateAndSendCurlRequest(
         url=url,
@@ -109,6 +97,3 @@ if __name__ == '__main__':
         print(f"❌ Test failed: {e}")
         # Optionally, you can raise the error again if you want the test to fail
         raise
-
-
-
