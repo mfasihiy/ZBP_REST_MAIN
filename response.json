@@ -1,7 +1,7 @@
 HTTP/1.1 200 OK
-Date: Tue, 12 Aug 2025 15:08:51 GMT
+Date: Wed, 13 Aug 2025 07:27:21 GMT
 Server: Apache
-Set-Cookie: AL_BALANCE-S=$xc/lE6TijZlZMEPlTZnjlURFmXFJpWiD1D_mADKLai0KmDDdT3u; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: AL_BALANCE-S=$xc/Ts8K5Ngf5cC6u8QBmm!a5AKtLW5TwxZ8P5bpChfREl_bbCmr; Path=/; Secure; HttpOnly; SameSite=None
 Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
 X-Content-Type-Options: nosniff
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -13,4 +13,4 @@ Referrer-Policy: same-origin
 Transfer-Encoding: chunked
 Content-Type: application/json
 
-{"mailboxHandle":"60638836-f219-4ce7-b03a-2f2441d20ac6","messageId":1755011331686,"messageUuid":"2b1b619f-6c4d-4c36-873b-2dd4db04b40e"}
+{"mailboxHandle":"4656d80b-5600-4217-a226-7309b055d7d4","messageId":1755070042172,"messageUuid":"a204e326-75cb-4e58-b9d9-5824bf97d799"}

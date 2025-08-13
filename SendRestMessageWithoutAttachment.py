@@ -1,9 +1,6 @@
 import datetime
 import time
 
-# from Utils.Accounts.BundID_Accounts import BundID_Accounts
-# from Utils.TestDaten.BundID_ZBP_TestDaten import BundID_ZBP_TestDaten
-
 from Curl_11_GenerateToken import Curl_11_GenerateToken
 from Curl_12_GenerateMsgSignature import Curl_12_GenerateMsgSignature
 from Curl_13_GenerateSignature64 import Curl_13_GenerateSignature64
@@ -18,8 +15,6 @@ if __name__ == '__main__':
     stork_qa_level = "1"
     url = "https://int.zbp.bund.de"
 
-########################################################################################################################
-
     handle = "60638836-f219-4ce7-b03a-2f2441d20ac6"
 
     current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
@@ -28,13 +23,9 @@ if __name__ == '__main__':
 
     retrievalConfirmationAddress = None
 
-# Erstellung eines Tokens ##############################################################################################
-
     curl_11_generate_token = Curl_11_GenerateToken()
     curl_11_generate_token.create_token()
     time.sleep(2)
-
-# Generierung der msg-signatur und der signatur.b64Erstellung eines Tokens #############################################
 
     curl_12_generate_msg_signature = Curl_12_GenerateMsgSignature(
         text_content=text_content,
@@ -52,8 +43,6 @@ if __name__ == '__main__':
     curl_13_generate_signature_64 = Curl_13_GenerateSignature64()
     curl_13_generate_signature_64.create_signature()
     time.sleep(1)
-
-# Erstellung und senden des Curl commands ###############################
 
     curl_14_generate_and_send_curl_request = Curl_14_GenerateAndSendCurlRequest(
         url=url,
